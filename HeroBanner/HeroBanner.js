@@ -2,7 +2,7 @@ import React from 'react'
 
 
 function HeroBanner(props) {
-    const {background,height}=props
+    const {background}=props
 return (
     <>
         <div style={{backgroundImage:`url(${background})`}} className="hero-banner" >
